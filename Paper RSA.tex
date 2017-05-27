@@ -13,6 +13,7 @@
 \fi
 
 \hyphenation{op-tical net-works semi-conduc-tor}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
 
 
 \begin{document}	
@@ -46,16 +47,26 @@ Email: mena97villalobos@gmail.com}}
 \IEEEpeerreviewmaketitle
 
 \section{Introduction}
-RSA algorithm, first published on 1977 by Ron Rivest, Adi Shamir, and Len Adleman,  is a public-key cryptosystem, in this days, often used in various web servers, browsers and commercial system to protect web traffic among some other things like email encryption In this type of cryptosystem the encryption key and the decryption key are different also, the encryption is public while de decryption key is private. This cryptosystem is base on the difficulty of factoring to prime large numbers.
+RSA algorithm, first published on 1977 by Ron Rivest, Adi Shamir, and Len Adleman,  is a public-key cryptosystem, in this days, often used in various web servers, browsers and commercial system to protect web traffic among some other things like email encryption. In this type of cryptosystem the encryption key and the decryption key are different also, the encryption is public while de decryption key is private. This cryptosystem is base on the difficulty of factoring to prime large numbers.
 
 \section{The Algorithm}
-Taking the words of Weisstein, E RSA encryption defines as "A public-key algorithm which uses prime factorization as the trapdoor one-way function", 
+Taking the words of Weisstein, E. RSA encryption is defined as "A public-key algorithm which uses prime factorization as the trapdoor one-way function". Given the formula $(m^e)^d \equiv m (mod n)$ the principle behind RSA is that is easy to find $e, d, n$ such as the formula is true, but is very difficult even impossible, finding $d$, even knowing $m, e, n$. As mention before RSA consists of a public key and a private key, public key is used to encrypt and private key is used to decrypt the message in a reasonable time, from the formula given before, public key is represented by the integers $e$ and $n$, and, the private key, is represented by d this led us with $m$, $m$ represents the message to encrypt
+
+\subsection{How RSA works?}
+First of all, we imagine that two individuals wants to exchange an encrypted message with RSA, $P_{1}$ has a public and a private key, $P_{1}$ shares the public key with $P_{2}$ when $P_{2}$ has the key he proceed to encrypt the message and send it to $P_{1}$, is important to clarify that only $P_{1}$ has the private key wich is used to decrypt the message, encryption and decryption process are describe below.  
+\subsubsection{Encryption}
+In encryption process the first step to follow is to turn M (message to send) into an integer m, such that 0 ≤ m < n in this step RSA uses a protocol such as the integer m will not felt into a range of integers that isn't secure. After this computing c (encrypted message) will be easy, using Alice's public key e as the following:
+$c \equiv m^e \Mod{n}$
+\subsubsection{Decryption}
+Decryption is as easy as to use the private key $d$ in the following way:\newline
+$c^d \equiv (m^e)^d \equiv m \Mod{n}$\newline
+This way the message is recovered with the private key
 
 \subsection{Before RSA}
-RSA, in a certain way, was the first implementation of public key encryption but as seen in \textbf{\textit{The history of Non-Secret Encryption}} by J.H. Ellis public key encryption was long before been developed, in 1970 J. H. Ellis conceive a non-secret digital encryption(today known as public key encryption), in this time Ellis couldn't see a way to implement this type of encryption but in 1973 an employee of GCHQ came with the basic idea of RSA encryption base on Ellis work, but, as the new techniques discover on GCHQ that are potentially harmful, by definition, are classified information, this implementation was kept on secret.
+RSA, in a certain way, was the first implementation of public key encryption, but, as seen in \textbf{\textit{The history of Non-Secret Encryption}} by J.H. Ellis public key encryption was long before been developed, in 1970 J. H. Ellis conceive a non-secret digital encryption(today known as public key encryption), in this time Ellis couldn't see a way to implement this type of encryption but in 1973 an employee of GCHQ came with the basic idea of RSA encryption base on Ellis work, but, as the new techniques discover on GCHQ that are potentially harmful, by definition, are classified information, this implementation was kept on secret.
 
 \subsection{Actual panorama}
-With the breakthrough in quantum computers is known that Shor's algorithm broke a 768-bit key (usually key sizes variate from 1024 to 4096 bits), this give us an idea of how quantum computers may change our way of thinking
+With the breakthrough in quantum computers is known that Shor's algorithm broke a 768-bit key (usually key sizes variate from 1024 to 4096 bits), this give us an idea of how quantum computers may change our way of thinking and what a breakout it would be since almost every of our actual encryption methods are base on prime number's difficulty to be generated
 
 \section{Methodology}
 Bla bla bla
