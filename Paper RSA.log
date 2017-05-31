@@ -1,10 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.3.6)  26 MAY 2017 20:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 MAY 2017 17:16
 entering extended mode
-**"./Paper RSA.tex"
-("Paper RSA.tex"
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(IEEEtran.cls
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Paper RSA.tex"
+(./Paper RSA.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -17,7 +19,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using IEEE Computer Society mode.
@@ -115,11 +117,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.09> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) ("Paper RSA.aux"
+) (./Paper RSA.aux
 
 LaTeX Warning: Label `IEEEhowto:kopta' multiply defined.
 
@@ -148,63 +150,64 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 
--- Lines per column: 58 (exact).
+-- Lines per column: 39 (approximate, difference = 0.00029pt).
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 40.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 53.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12.045> on input line 53.
+(Font)              <12.045> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.43146> on input line 53.
+(Font)              <8.43146> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.02249> on input line 53.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no ‰ in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+(Font)              <6.02249> on input line 58.
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‰ in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 []\OT1/ptm/m/n/8.03 Boneh, D (Novem-ber, 1998). Twenty Years of At-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 \OT1/ptm/m/n/8.03 tacks on the RSA Cryp-tosys-tem, Re-trieve from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 []\OT1/ptm/m/n/8.03 Ellis, J.H. (Jan-uary, 1970). The pos-si-bil-ity of se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 \OT1/ptm/m/n/8.03 cure non-secret ana-logue en-cryp-tion, Re-trieve from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 []\OT1/ptm/m/n/8.03 Ellis, J.H. (May, 1970). The pos-si-bil-ity of se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 \OT1/ptm/m/n/8.03 cure non-secret ana-logue en-cryp-tion, Re-trieve from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 []\OT1/ptm/m/n/8.03 Weisstein, Eric W. "RSA En-cryp-tion." From
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 \OT1/ptm/m/n/8.03 MathWorld--A Wol-fram Web Re-source. Re-trieve from:
  []
 
@@ -215,12 +218,12 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 []\OT1/ptm/m/n/8.03 Williamson, Mal-colm J. (Jan-uary 21, 1974). Non-se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 \OT1/ptm/m/n/8.03 cret en-cryp-tion us-ing a fi-nite field. Re-trieve from:
  []
 
@@ -235,32 +238,34 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] ("Paper RSA.aux")
+[3] (./Paper RSA.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1224 strings out of 493333
- 21752 string characters out of 3136609
- 81083 words of memory out of 3000000
- 4806 multiletter control sequences out of 15000+200000
- 41175 words of font info for 77 fonts, out of 3000000 for 9000
+ 1223 strings out of 493014
+ 21798 string characters out of 6133351
+ 78379 words of memory out of 5000000
+ 4818 multiletter control sequences out of 15000+600000
+ 41175 words of font info for 77 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 26i,7n,19p,755b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
-w/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on "Paper RSA.pdf" (2 pages, 103350 bytes).
+ 26i,7n,19p,753b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on "Paper RSA.pdf" (3 pages, 106396 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
