@@ -14,7 +14,7 @@
 
 \hyphenation{op-tical net-works semi-conduc-tor}
 \newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
-
+\linespread{1.5}
 
 \begin{document}	
 
@@ -68,6 +68,17 @@ RSA, in a certain way, was the first implementation of public key encryption, bu
 \subsection{Actual panorama}
 With the breakthrough in quantum computers is known that Shor's algorithm broke a 768-bit key (usually key sizes variate from 1024 to 4096 bits), this give us an idea of how quantum computers may change our way of thinking and what a breakout it would be since almost every of our actual encryption methods are base on prime number's difficulty to be generated
 
+\section{Random and Pseudo-random number generation}
+As the title says there are different ways to find a random number, knowing that the idea of RSA is to keep secure data via public and private keys, RSA needs a complex algorithm that not only generates this keys as a random number, but also needs to be an algorithm that generates random numbers in a secure way, keeping away  things like repeated random numbers or a pattern to generate them. The to basic ways to find random numbers are pseudo-random generation and random generation, as mention before random number generation must be unpredictable but in the case of pseudo random generation knowing the seed used to generate this numbers makes easy to predict the next pseudo random number generated, so as we can see  pseudo random generation is not feasible if we want a completely secure method to encrypt, next we have random generation, in random generation a non deterministic algorithm is used, as said before the number generated must be unpredictable so in random numbers generation may inputs, like keystrokes or mouse movements, may be used to ensure the randomness of the number generated. As seen in sections below this paper is base on the use of pseudo random numbers generation because the use of random generation as said in \textit{A Statistical Test Suite for Random and Pseudorandom Number Generators for Cryptographic Applications} (2010) "... may still be deficient when evaluated by statistical tests. In addition, the production of high-quality random numbers may be too time consuming, making such production undesirable when a
+large quantity of random numbers is needed"(p.1-2)\newline
+Also the use of pseudo random generation may be a better way to get out with this problems base on the quote of \textit{A Statistical Test Suite for Random and Pseudorandom Number Generators for Cryptographic Applications}
+\begin{center}
+	Ironically, pseudorandom numbers often appear to be more random than random numbers obtained from
+	physical sources. If a pseudorandom sequence is properly constructed, each value in the sequence is
+	produced from the previous value via transformations that appear to introduce additional randomness. A
+	series of such transformations can eliminate statistical auto-correlations between input and output. Thus,
+	the outputs of a PRNG may have better statistical properties and be produced faster than an RNG. (p.1-2)
+\end{center}
 \section{Methodology}
 Bla bla bla
 
