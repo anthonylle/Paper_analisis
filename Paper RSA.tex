@@ -7,6 +7,8 @@
 \usepackage{cite}
 \fi
 
+\usepackage{graphicx}
+
 \ifCLASSINFOpdf
 \else
 \fi
@@ -35,6 +37,7 @@ Email: Anthonylle@hotmail.com}
 Instituto Tecnologico de Costa Rica\\
 Heredia, Costa Rica\\
 Email: mena97villalobos@gmail.com}}
+
 
 \maketitle
 \large
@@ -92,6 +95,8 @@ This section show how RSA can be analyzed by its complexity in order to classify
 \subsection{List of Experiments}
 For the following experiments, there will be some tests to do in order to get detailed results. Those experiments are:
 
+
+
 \begin{itemize}
 	\item Encrypt and Decrypt a short word with at least 10 characters.
 	\item Encrypt and Decrypt the lyric of Pendulum - Self vs Self song in a single line string.
@@ -101,10 +106,14 @@ For the following experiments, there will be some tests to do in order to get de
 
 
 \section{Experiments}
-as
+The time it takes for a laptop (Processor: Intel Dual-Core i3-4005U 1.70GHz) to show some tests mentioned in the methodology and other tests to get a better result is shown in the following graph, on the y axis is measured running Milliseconds for each test string with the number of letters per string that is displayed on the x-axis.
 
+\includegraphics[scale=0.3]{Rsa_definitivo.png}
+	
 \section{Analysis and Results}
-The analysis goes here
+The results obtained in the graph shown in the previous section of experiments show that the number of characters that have the string entered in the program of the algorithm RSA does not have great importance in the case of encrypting or deciphering a word or a text. The algorithm takes a longer time in the random generation and generation of the integer that supports the large number that is generated at the time of encrypting the string.\newline
+It was also observed that in order to encrypt for each letter that was in the chain the size of BigInteger should at least quadruple the size of the chain. That is to say that for a string of eight characters the size of the BigInteger must be at least 32.\newline
+In the document has a section of randoms that explains that it is a random and a pseudo-random, it should be mentioned that it is not taken into account in these last two sections due to problems with the implementation, but as randomized investigations are the best Way to cry As is true at random, which implies a better efficiency at the moment of crying.
 
 \section{Conclusion}
 The conclusion goes here.
