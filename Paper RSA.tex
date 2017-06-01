@@ -1,11 +1,10 @@
 \documentclass[conference,compsoc, 10pt]{IEEEtran}
 
 % *** CITATION PACKAGES ***
-%
 \ifCLASSOPTIONcompsoc
-  \usepackage[nocompress]{cite}
+\usepackage[nocompress]{cite}
 \else
-  \usepackage{cite}
+\usepackage{cite}
 \fi
 
 \ifCLASSINFOpdf
@@ -26,7 +25,7 @@ San Jose, Costa Rica\\
 Email: geoburgosretana@gmail.com}
 \and
 \IEEEauthorblockN{Anthony Leandro}
-\IEEEauthorblockA{Computer Engineering Student\\
+\IEEEauthorblockA{Computer Science Student\\
 Instituto Tecnologico de Costa Rica\\
 Limon, Costa Rica\\
 Email: Anthonylle@hotmail.com}
@@ -46,8 +45,13 @@ Email: mena97villalobos@gmail.com}}
 
 \IEEEpeerreviewmaketitle
 
+
 \section{Introduction}
 RSA algorithm, first published on 1977 by Ron Rivest, Adi Shamir, and Len Adleman,  is a public-key cryptosystem, in this days, often used in various web servers, browsers and commercial system to protect web traffic among some other things like email encryption. In this type of cryptosystem the encryption key and the decryption key are different also, the encryption is public while de decryption key is private. This cryptosystem is base on the difficulty of factoring to prime large numbers.
+
+\section[12pt]{Introduction}
+
+RSA algorithm, first published on 1977 by Ron Rivest, Adi Shamir, and Len Adleman,  is a public-key cryptosystem, in this days, often used in various web servers, browsers and commercial system to protect web traffic among some other things like email encryption In this type of cryptosystem the encryption key and the decryption key are different also, the encryption is public while de decryption key is private. This cryptosystem is base on the difficulty of factoring to prime large numbers.
 
 \section{The Algorithm}
 Taking the words of Weisstein, E. RSA encryption is defined as "A public-key algorithm which uses prime factorization as the trapdoor one-way function". Given the formula $(m^e)^d \equiv m (mod n)$ the principle behind RSA is that is easy to find $e, d, n$ such as the formula is true, but is very difficult even impossible, finding $d$, even knowing $m, e, n$. As mention before RSA consists of a public key and a private key, public key is used to encrypt and private key is used to decrypt the message in a reasonable time, from the formula given before, public key is represented by the integers $e$ and $n$, and, the private key, is represented by d this led us with $m$, $m$ represents the message to encrypt
@@ -80,7 +84,21 @@ Also the use of pseudo random generation may be a better way to get out with thi
 	the outputs of a PRNG may have better statistical properties and be produced faster than an RNG. (p.1-2)
 \end{center}
 \section{Methodology}
-Bla bla bla
+This section show how RSA can be analyzed by its complexity in order to classify the algorithm in a set of methods with different usages but with the same Big O order and how the experiments will proceed towards gather information about its behavior when it has different encryption and decryption requests.
+
+\subsection{RSA Complexity Analysis}
+
+
+\subsection{List of Experiments}
+For the following experiments, there will be some tests to do in order to get detailed results. Those experiments are:
+
+\begin{itemize}
+	\item Encrypt and Decrypt a short word with at least 10 characters.
+	\item Encrypt and Decrypt the lyric of Pendulum - Self vs Self song in a single line string.
+	\item Use pseudo random number generator to get the prime numbers in a key.
+	\item Use truly random number generator to get the prime numbers in a key.
+\end{itemize}
+
 
 \section{Experiments}
 as
